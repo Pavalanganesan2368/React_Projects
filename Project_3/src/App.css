@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.active {
+  color: #cad80d;
+}
+
+.in-active {
+  background-color: transparent;
+}
+
+.star-rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.1em;
+}
+
+h1 {
+  display: inline;
+  font-size: 1.6em;
+  font-weight: 700;
+}
